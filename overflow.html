@@ -7,9 +7,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Overflow</title>
     <style>
-        .mini-mini{
-            
+        .mini-mini {
+            margin-bottom: 20px;
+            width: 150px;
+            border: 3px solid indianred;
+            overflow: hidden;
         }
+
+        .short-text {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
         .mega-box {
             width: 500px;
             height: 200px;
@@ -31,7 +41,8 @@
 <body>
     <h1>Ami Kushite Godo Godo</h1>
     <div class="mini-mini">
-        <p class="short-text">If you want to get my money, Bikash me first</p>
+        <p class="short-text" title="If you want to get my money, Bikash me first">If you want to get my money, Bikash
+            me first</p>
     </div>
     <div class="mega-box">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, natus? Distinctio id
         non cum ipsum consequuntur? Mollitia suscipit aspernatur quam fuga. Perspiciatis dicta quas eius repudiandae
